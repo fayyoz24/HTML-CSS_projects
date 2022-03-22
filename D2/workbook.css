@@ -37,11 +37,12 @@
     margin-top: 56px;
     color: white;
     border: 6px;
-    background-color: red;
+    background-image: linear-gradient(red, yellow);
 }
 ul {
     list-style-type: none;
     padding-left: 5px;
+    background-image: linear-gradient(red, yellow);
   }
   
 /* - Style each list item to have 6px padding top and bottom, 22px padding-left, 1px border bottom with this color: #dfdfdf */
