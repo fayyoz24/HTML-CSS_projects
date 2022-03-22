@@ -30,11 +30,7 @@
 .main-section .subtitle h3{
     font-family: "Prata"; font-size: 24px; font-weight: 400;
 }
-/* Style the h6 to have padding 22px all around, 0px bottom margin, 
-56px top margin, white color for the text, rounded borders for 6px, 
-and a horizontal gradient as a background. Pick two colors from the
- image to use as the gradient color steps.
--  */
+
 .main-section h6{
     padding: 22px; 
     margin-bottom: 0px;
@@ -42,4 +38,18 @@ and a horizontal gradient as a background. Pick two colors from the
     color: white;
     border: 6px;
     background-color: red;
+}
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+  }
+  
+/* - Style each list item to have 6px padding top and bottom, 22px padding-left, 1px border bottom with this color: #dfdfdf */
+
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    border-bottom: #dfdfdf;
 }
