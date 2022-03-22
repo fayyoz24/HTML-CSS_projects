@@ -1,0 +1,45 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+ }
+
+.main-section{
+    padding: 20px;
+
+}
+.main-section .image-container{
+    height: 500px;
+
+    background-image: url(https://media.istockphoto.com/photos/colorful-panoramic-mountain-view-at-sunrise-picture-id1129473522?b=1&k=20&m=1129473522&s=170667a&w=0&h=BUuwJYJXKx1nBZtKhddIFe0dfwJzeMyq7IcvSkewyOE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-section .subtitle
+  {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+.main-section .subtitle h1{
+    font-family: "Prata"; font-size: 64px; font-weight: 400;
+}
+.main-section .subtitle h3{
+    font-family: "Prata"; font-size: 24px; font-weight: 400;
+}
+/* Style the h6 to have padding 22px all around, 0px bottom margin, 
+56px top margin, white color for the text, rounded borders for 6px, 
+and a horizontal gradient as a background. Pick two colors from the
+ image to use as the gradient color steps.
+-  */
+.main-section h6{
+    padding: 22px; 
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border: 6px;
+    background-color: red;
+}
